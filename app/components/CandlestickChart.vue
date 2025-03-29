@@ -1,7 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted, watch, defineProps, defineExpose } from 'vue';
 import { createChart, CandlestickSeries, type IChartApi, type ISeriesApi, type CandlestickData, ColorType } from 'lightweight-charts';
-import { useGameStore } from '~/stores/gameStore';
 
 const props = defineProps({
   width: {

@@ -1,7 +1,3 @@
-import { defineStore } from 'pinia';
-import { ref } from 'vue';
-import { useGameStore } from './gameStore';
-
 // Define the Event interface
 interface RandomEvent {
   id: string;

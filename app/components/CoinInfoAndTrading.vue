@@ -79,11 +79,8 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue';
-import { useGameStore } from '~/stores/gameStore';
 import { formatCurrency, formatPercentChange, calculatePercentChange } from '~/utils/marketUtils';
 import CandlestickChart from '~/components/CandlestickChart.vue';
-import { useTransactions } from '~/composables/useTransactions';
 
 const props = defineProps<{
   // No props needed

@@ -1,6 +1,3 @@
-import { useGameStore } from '~/stores/gameStore';
-import { useDecisionStore } from '~/stores/decisionStore';
-import { useEventStore } from '~/stores/eventStore';
 import { generateOHLCData, generateDateString, saveGameState } from '~/utils/marketUtils';
 
 export function useGameMechanics() {

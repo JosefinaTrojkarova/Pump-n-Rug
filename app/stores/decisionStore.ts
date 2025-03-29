@@ -1,7 +1,3 @@
-import { defineStore } from 'pinia';
-import { ref, computed } from 'vue';
-import { useGameStore } from './gameStore';
-
 // Define the Decision interface
 interface Decision {
   id: string;

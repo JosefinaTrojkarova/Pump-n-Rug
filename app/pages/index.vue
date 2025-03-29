@@ -1,16 +1,6 @@
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted } from 'vue';
-import { useGameStore } from '~/stores/gameStore';
 import { loadGameState } from '~/utils/marketUtils';
-import { useGameMechanics } from '~/composables/useGameMechanics';
-import { useNotifications } from '~/composables/useNotifications';
-
-// Import components
-import CreateCoinDialog from '~/components/CreateCoinDialog.vue';
-import Notification from '~/components/Notification.vue';
-import DecisionsList from '~/components/DecisionsList.vue';
 import CoinInfoAndTrading from '~/components/CoinInfoAndTrading.vue';
-import GameStatus from '~/components/GameStatus.vue';
 
 // Initialize stores
 const gameStore = useGameStore();

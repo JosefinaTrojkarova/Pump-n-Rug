@@ -1,5 +1,3 @@
-import { ref } from 'vue';
-
 export function useNotifications() {
   const notification = ref('');
   const notificationType = ref<'info' | 'success' | 'error'>('info');

@@ -1,6 +1,4 @@
-import { useGameStore } from '~/stores/gameStore';
 import { formatCurrency } from '~/utils/marketUtils';
-import { ref } from 'vue';
 
 export function useTransactions() {
   const gameStore = useGameStore();

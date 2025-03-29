@@ -1,6 +1,3 @@
-import { defineStore } from 'pinia';
-import { ref, computed } from 'vue';
-
 // Define the PriceGrowthFactor interface
 interface PriceGrowthFactor {
   id: number;

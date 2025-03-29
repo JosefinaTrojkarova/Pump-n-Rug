@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { useDecisionStore } from '~/stores/decisionStore';
-import { useGameStore } from '~/stores/gameStore';
 import { formatCurrency } from '~/utils/marketUtils';
 
 const props = defineProps({

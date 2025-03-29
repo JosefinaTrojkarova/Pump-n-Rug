@@ -21,14 +21,6 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
-import { useDecisionStore } from '~/stores/decisionStore';
-import DecisionDialog from '~/components/DecisionDialog.vue';
-
-const props = defineProps<{
-  // No props needed
-}>();
-
 const emit = defineEmits<{
   (e: 'decision-outcome', result: { success: boolean; effect: string }): void
 }>();
