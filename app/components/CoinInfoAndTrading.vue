@@ -82,10 +82,6 @@
 import { formatCurrency, formatPercentChange, calculatePercentChange } from '~/utils/marketUtils';
 import CandlestickChart from '~/components/CandlestickChart.vue';
 
-const props = defineProps<{
-  // No props needed
-}>();
-
 const emit = defineEmits<{
   (e: 'transaction', result: { success: boolean, message: string, type: string }): void,
   (e: 'update-chart'): void
